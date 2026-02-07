@@ -1,0 +1,23 @@
+{
+  "connector": "dropbox",
+  "allowed_models": ["*"],
+  "scopes": [
+    "account_info.read",
+    "account_info.write",
+    "files.metadata.read",
+    "files.metadata.write",
+    "files.content.read",
+    "files.content.write",
+    "file_requests.read",
+    "file_requests.write",
+    "sharing.read",
+    "sharing.write",
+    "team_info.read",
+    "team_info.write",
+    "team_data.member",
+    "team_data.content.read",
+    "team_data.content.write",
+    "contacts.read",
+    "contacts.write"
+  ]
+}
